@@ -1,0 +1,61 @@
+.cont1 {
+  border-bottom: 3px #babcba4d solid;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.top h4 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 3px;
+}
+
+.go {
+  margin-top: 70px;
+  padding-left: 20px;
+}
+.go h5 {
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.inform h5 {
+  margin-top: 45px;
+  font-size: 11px;
+}
+
+.inform .go1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 90%;
+  height: 25px;
+  margin-bottom: 5px;
+}
+.inform .go2 {
+  width: 90%;
+  height: 30px;
+}
+.inform button {
+  width: 90%;
+  height: 35px;
+  text-align: center;
+  background-color: #ffbf00;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  margin: 70px 1px 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.go button {
+  width: 90%;
+  height: 35px;
+  text-align: center;
+  background-color: #ffbf00;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  margin: 170px 1px 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}

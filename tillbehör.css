@@ -1,0 +1,52 @@
+.tillbehör2 {
+  position: relative;
+  /* display: inline-block; */
+}
+.tillbehör2 img {
+  /* display: block; */
+  width: 2s00px;
+  height: 190px;
+  object-fit: cover;
+  opacity: 0.9;
+  padding-left: 70px;
+  margin-bottom: 8px;
+}
+.tillbehör1 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  background-color: #ffbf00;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+.tillbehör1 li {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 0 27px;
+  list-style: none;
+  text-align: center;
+}
+body > div.cont > section.tillbehör1 > ul > li:nth-child(3) {
+  border-bottom: 3px black solid;
+}
+.hide3 {
+  display: none;
+}
+.sms {
+  margin-top: 30px;
+}
+.sms label {
+  font-size: 18px;
+}
+
+body > div.cont > section.menutext > div.hide4 > button {
+  background-color: #ffbf00;
+  border-radius: 25px;
+  width: 57px;
+  height: 25px;
+}

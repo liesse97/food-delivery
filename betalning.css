@@ -1,0 +1,18 @@
+.go h4 {
+  border: 1px #ffbf00 solid;
+  background-color: #ffbf0056;
+  border-radius: 5px;
+  height: 35px;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  padding-top: 10px;
+}
+.he {
+  position: absolute;
+  width: 25px;
+  padding-top: 10px;
+  z-index: 3;
+  margin-left: 10px;
+}

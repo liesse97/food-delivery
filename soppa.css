@@ -1,0 +1,132 @@
+.sopp1 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  background-color: #ffbf00;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+.sopp1 li {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 0 27px;
+  list-style: none;
+  text-align: center;
+}
+.choice {
+  background-color: #fff !important;
+  margin-top: 0 !important;
+  margin-bottom: 5px;
+}
+.choice li {
+  padding: 0 20px;
+}
+.sopp2 {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.sopp2 img {
+  /* display: block; */
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.svg2 {
+  position: absolute;
+  bottom: -30px;
+  left: 265px;
+  /* display: block; */
+}
+.svg3 {
+  position: absolute;
+  bottom: -30px;
+  left: 265px;
+}
+.svg4 {
+  position: absolute;
+  top: 450px;
+  left: 75px;
+  z-index: 3;
+}
+.hid {
+  display: none;
+}
+.menutext {
+  padding-left: 10px;
+}
+.menutext h3 {
+  color: #4caf50;
+  letter-spacing: 2px;
+  margin: 10px 0 6px 0;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.menutext h2 {
+  font-size: 21px;
+}
+.veg {
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+.ing {
+  margin: 15px 0;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.ingredi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ingredi li {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0 15px;
+  list-style: none;
+  text-transform: uppercase;
+  opacity: 0.9;
+  border: 1px solid #f2f2f2;
+  border-radius: 25%;
+  background-color: #f2f2f2;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+.info i {
+  font-size: 22px;
+  padding-right: 10px;
+}
+/* .hide {
+  display: none;
+} */
+.hide2 {
+  display: none;
+}
+.fas fa-carrot {
+  font-size: 100px;
+}
+body > div.cont > section.sopp1 > ul.choice > li:nth-child(4) {
+  background-color: #ffbf00;
+  border-radius: 25px;
+  height: 25px;
+}
+body > div.cont > section.sopp1 > ul:nth-child(1) > li:nth-child(1) {
+  border-bottom: 3px black solid;
+}
+body > div.cont > section.dryck1 > ul > li:nth-child(3)
+

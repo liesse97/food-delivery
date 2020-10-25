@@ -1,0 +1,24 @@
+.färdig {
+  text-align: center;
+}
+.färdig h2 {
+  margin: 20px 0 10px 0;
+}
+.färdig p {
+  font-size: 18px;
+}
+.färdig button {
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  background-color: #ffbf00;
+  border-radius: 25px;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  margin: 15px 1px 0 0;
+  font-weight: bold;
+}
+.onl {
+  margin-top: 50px;
+}
