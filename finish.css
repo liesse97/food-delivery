@@ -1,13 +1,13 @@
-.färdig {
+.finish {
   text-align: center;
 }
-.färdig h2 {
+.finish h2 {
   margin: 20px 0 10px 0;
 }
-.färdig p {
+.finish p {
   font-size: 18px;
 }
-.färdig button {
+.finish button {
   width: 100px;
   height: 35px;
   text-align: center;
@@ -21,4 +21,8 @@
 }
 .onl {
   margin-top: 50px;
+}
+.finish button a {
+  text-decoration: none;
+  color: #000;
 }

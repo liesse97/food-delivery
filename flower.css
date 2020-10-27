@@ -34,9 +34,9 @@
 body > div.cont > section.tillbehör1 > ul > li:nth-child(3) {
   border-bottom: 3px black solid;
 }
-.hide3 {
+/* .hide3 {
   display: none;
-}
+} */
 .sms {
   margin-top: 30px;
 }

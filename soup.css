@@ -18,6 +18,10 @@
   list-style: none;
   text-align: center;
 }
+.lia {
+  text-decoration: none;
+  color: #000;
+}
 .choice {
   background-color: #fff !important;
   margin-top: 0 !important;
@@ -69,7 +73,10 @@
   font-size: 15px;
 }
 .menutext h2 {
-  font-size: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
 }
 .veg {
   letter-spacing: 2px;
@@ -111,9 +118,9 @@
   font-size: 22px;
   padding-right: 10px;
 }
-/* .hide {
-  display: none;
-} */
+.hide {
+  display: block;
+}
 .hide2 {
   display: none;
 }
@@ -128,5 +135,9 @@ body > div.cont > section.sopp1 > ul.choice > li:nth-child(4) {
 body > div.cont > section.sopp1 > ul:nth-child(1) > li:nth-child(1) {
   border-bottom: 3px black solid;
 }
-body > div.cont > section.dryck1 > ul > li:nth-child(3)
-
+/* body > div.cont > section.dryck1 > ul > li:nth-child(3)
+ */
+.ingredi li i {
+  height: 20px;
+  width: 10px;
+}

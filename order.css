@@ -55,7 +55,11 @@
   color: #000;
   border: none;
   cursor: pointer;
-  margin: 170px 1px 0 0;
+  margin: 48px 1px 0 0;
   font-weight: bold;
   text-transform: uppercase;
+}
+.go button a {
+  text-decoration: none;
+  color: #000;
 }
