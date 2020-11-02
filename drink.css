@@ -30,6 +30,10 @@
   list-style: none;
   text-align: center;
 }
-body > div.cont > section.dryck1 > ul > li:nth-child(2) {
+body > section.dryck1 > ul > li:nth-child(2) {
   border-bottom: 3px black solid;
+}
+
+.ingredi {
+  padding-top: 20px;
 }

@@ -1,13 +1,14 @@
 <html lang="sv">
-
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Delivery</title>
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cart.css">
+    
+    <script src="cart.js " async></script>
+    
      
    
 </head>
@@ -44,24 +45,64 @@
                     <th>Pris</th>
                     <th> ta bort </th>
                 </tr>
-                <tr class="take-away">
-                    <td>
+
+                <div class="rowtotal">
+    
+                <tr class="row">
+                    <td >
                     <div class="cart-image"> 
-                    <img src="https://www.tina.se/wp/wp-content/uploads/2018/01/tina_morotssoppa1-1080x1300.jpg">
+                <img
+                    src="https://assets.bonappetit.com/photos/5d977e513b30f40008a4785e/3:2/w_2560,c_limit/Basically-Hammy-Chickpea-Soup.jpg">
                     </div>
 
 
                     </td>
                     <td> 
-                        <input type="number" value="1"></td>
-                    <td>50kr</td>
+                        <input class="cartQuant" type="number" value="1"></td>
+                    <td class="price">120kr</td>
                     <td>
                         <i class="fas fa-trash-alt"> </i>
                         
                         <!-- <button class="btn-danger" type="button"> ta bort </button> -->
                     </td>
                 </tr>
+                <tr class="row">
+                    <td>
+                        <div class="cart-image">
+                        <img src="https://www.maliburumdrinks.com/contentassets/efa030a64fd5410ea821f4d3c5bd10f7/malibubaybreeze.png?impolicy=CocktailHero"
+                            alt="">
+                        </div>
                 
+                
+                    </td>
+                    <td>
+                        <input  class="cartQuant" type="number" value="1"></td>
+                    <td class="price">40kr</td>
+                    <td>
+                        <i class="fas fa-trash-alt"> </i>
+                
+                        <!-- <button class="btn-danger" type="button"> ta bort </button> -->
+                    </td>
+                </tr>
+
+                <tr class="row">
+                    <td>
+                        <div class="cart-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpC0U9mTswEXFSkZDVIjrjFQvG_p4fdbBn-g&usqp=CAU" alt="">
+                        </div>
+                
+                
+                    </td>
+                    <td>
+                        <input  class="cartQuant" type="number" value="1"></td>
+                    <td class="price">100kr</td>
+                    <td>
+                        <i class="fas fa-trash-alt"> </i>
+                
+                       
+                    </td>
+                </tr>
+            </div>
            
             </table>
             
@@ -74,29 +115,32 @@
         <table>
             <tr> 
                 <td> Fraktavgift </td>
-                <td> 29kr </td>
+                <td> 20kr </td>
 
             </tr>
             <tr> 
                 <td> Totalt(inkl. moms) </td>
-                <td> 236kr </td>
+                <td class="totalPrice"> 280kr </td>
                
 
             </tr>
              <td>
+                <a href="order.html">
                  <button>
-                     <a href="order.html">
+                   
                     Fortsätt
-                </a></button>
+                </button>
+                 </a>
                 </td>
             
         </table>
         
 
             </section>
+            </div>
 
             
- <script src="cart.js"></script>
+ 
 
 </body>
 </html>

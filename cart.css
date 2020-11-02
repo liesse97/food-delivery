@@ -53,6 +53,7 @@ body
   > tbody
   > tr:nth-child(3)
   > td
+  > a
   > button {
   width: 100%;
   height: 35px;
@@ -74,6 +75,6 @@ body
   color: #000;
 }
 .cart-image img {
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 55px;
 }

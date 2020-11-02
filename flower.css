@@ -4,7 +4,7 @@
 }
 .tillbehör2 img {
   /* display: block; */
-  width: 2s00px;
+  /* width: 200px; */
   height: 190px;
   object-fit: cover;
   opacity: 0.9;
@@ -31,7 +31,7 @@
   list-style: none;
   text-align: center;
 }
-body > div.cont > section.tillbehör1 > ul > li:nth-child(3) {
+body > section.tillbehör1 > ul > li:nth-child(3) {
   border-bottom: 3px black solid;
 }
 /* .hide3 {
@@ -43,10 +43,26 @@ body > div.cont > section.tillbehör1 > ul > li:nth-child(3) {
 .sms label {
   font-size: 18px;
 }
+.sms1 {
+  margin: 5px;
+  width: 60px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: #ffbf00;
+}
 
-body > div.cont > section.menutext > div.hide4 > button {
+/* body > div.cont > section.menutext > div.hide4 > button {
   background-color: #ffbf00;
   border-radius: 25px;
   width: 57px;
   height: 25px;
+} */
+.souph2 {
+  margin-top: 30px;
+}
+.souph2 h2:nth-child(2) {
+  font-size: 25px;
+}
+.souph2 h2:nth-child(1) {
+  font-size: 25px;
 }
